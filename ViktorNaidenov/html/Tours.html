@@ -21,11 +21,9 @@
     <a href="./fen.html">Фен клуб</a>
   </nav>
 </header>
-   <h1>Турнета на Травис Скот</h1>
-   
+   <h1 id="tourTitle" onclick="playEffect()">Турнета на Травис Скот</h1>
+   <audio id="travSound" src="../images/sound.mp3"></audio>
   
-
- 
   <section>
     <h2 style="color: #64181c;">2023–2025: Circus Maximus Tour</h2>
     <img src="../images/CircusMaximus.jpg" class="styled-image">
@@ -71,6 +69,21 @@
       <li>16 юли 2019: Лондон, Великобритания – O2 Arena</li>
     </ul>
   </section>
+  <script>
+  function playEffect() {
+    const title = document.getElementById("tourTitle");
+    const sound = document.getElementById("travSound");
+
+    const originalText = title.innerText;
+    title.innerText = "FEIN!";
+    sound.play();
+
+    setTimeout(() => {
+      title.innerText = originalText;
+    }, 5000);
+  }
+</script>
+
   <footer>
   <div class="logo">
     <img src="../images/icon.png" alt="Икона">

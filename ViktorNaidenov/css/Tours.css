@@ -40,6 +40,7 @@ ul{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border-radius: 15px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   transition: transform 0.3s ease-in-out;
+
   
  
  
@@ -96,4 +97,12 @@ footer {
 
 #footer1,#footer2{
   color:#ffffff;
+}
+#tourTitle {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#tourTitle:hover {
+    color: #d62828;
 }
