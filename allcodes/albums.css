@@ -1,0 +1,188 @@
+ html{
+   background-color:#ffffff ;
+ }
+ h1{
+    text-align: center;
+    color:#f5eada;
+    text-shadow:3px 3px 5px #64181c;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    margin:1em;
+   
+}
+   
+ .albums{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding:20px;
+  height: fit-content;
+  width: 100%;
+ }
+
+ .container {
+      text-align: center;
+      font-family: sans-serif;
+      background-color:#64181c;
+      border-radius: 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: start;
+      width: 58.125em;
+      height: 23.75em;
+      gap:1.25em;
+      margin-top: 1.25em;
+      margin: 2.5em auto;
+ }
+
+    .cover {
+      width: 18.75em;
+      height: 18.75em;
+      margin: 1.25em;
+      margin-right: 0px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+      padding-right: 0px;
+      border-width:1em ;
+      border-style: solid;
+      border-color: #501316;
+      
+      
+    }
+
+    .songs {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: left;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.5;
+      width: fit-content;
+      height:fit-content;
+      padding-top: 0.625em;
+      padding-right: 0.625em;
+      padding-bottom: 5px;
+      padding-left: 0.625em;
+     
+    }
+
+    .tracklist1{
+      background-color: #501316;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 800px;
+      height:332px ;
+      margin-top: 15px;
+      margin-left: 0px;
+      padding-left: 0px;
+      margin-right: 1.25em;
+    }
+
+    .tracklist2{
+      background-color: #501316;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:flex-start;
+      width: 50em;
+      height:20.75em ;
+      margin-top: 15px;
+      margin-left: 0px;
+      padding-left: 0px;
+      margin-right: 1.25em;
+    }
+
+    .caption {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 30px;
+      color: #f5eada;
+      text-shadow: 2px 2px 2px#131313;
+    }
+    .album{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #TJWP{
+      width: 470px;
+      font-size: 16px;
+      line-height: 1.8;
+
+    }
+    #JACKBOYS{
+      width: 470px;
+      line-height: 1.8;
+    }
+    
+    #BTSMK{
+      font-size: 22px;
+    }
+
+    #Jack{
+       font-size: 25px;
+    }
+
+  header, footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+
+footer {
+  font-size: 14px;
+  display: flex;
+  justify-content:space-between ;
+  color:#ffffff;
+}
+
+#footer1,#footer2{
+  color:#ffffff;
+}
+
+#albumSearch {
+  position: absolute;
+  top: 1.25em;
+  left: 1.25em;
+  display: block;
+  margin-top: 95px;
+  margin-left: 0.625em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  padding-left: 0.625em;
+  width: 12.5em;
+  height: fit-content;
+  font-size: 14px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ccc;
+  border-radius: 20px;
+}
+

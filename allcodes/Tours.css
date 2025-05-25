@@ -1,0 +1,109 @@
+body{background-color: #f5eada;
+    position: relative;
+    
+
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #5D382F;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #d6630d;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #64181c;
+}
+ul{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ef8659;
+    }
+.ul1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#a60002;
+    
+}
+.image-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+.styled-image {
+  width: 300px; 
+  height: auto; 
+  float: right;
+  border: 5px solid #561515; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out;
+
+  
+ 
+ 
+}
+.styled-image1 {
+  width: 300px; 
+  height: auto; 
+  float: right;
+  border: 5px solid #ef8659; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out;
+  
+ 
+ 
+}
+img:hover {
+  transform: scale(1.1);
+}
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+
+footer {
+  font-size: 14px;
+  display: flex;
+  justify-content:space-between ;
+  color:#ffffff;
+}
+
+#footer1,#footer2{
+  color:#ffffff;
+}
+#tourTitle {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#tourTitle:hover {
+    color: #d62828;
+}
+

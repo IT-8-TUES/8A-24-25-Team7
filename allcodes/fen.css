@@ -1,0 +1,75 @@
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #64181c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-style: normal;
+    color:#777068;
+    
+}
+                    
+
+
+body {
+  background-color: white;
+  background-image: url('travis.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+body::before {
+  background: rgba(0, 0, 0, 0.3); 
+}
+ul,li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #f5eada;
+}
+p{color: #dadada;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  }
+  header, footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+
+footer {
+  font-size: 14px;
+  display: flex;
+  justify-content:space-between ;
+  color:#ffffff;
+}
+
+#footer1,#footer2{
+  color:#ffffff;
+}

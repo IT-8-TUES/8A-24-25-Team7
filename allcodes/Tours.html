@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+   <link rel="stylesheet" href="Tours.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LitLikeScott</title>
+</head>
+<body>
+   <header>
+  <div class="logo">
+    <img src="icon.png" alt="Икона">
+    <span><strong>LitLikeScott</strong></span>
+  </div>
+  <nav>
+    <a href="#">Начало</a>
+    <a href="Biografiq.html">Биография</a>
+    <a href="Albums.html">Албуми</a>
+    <a href="#">Клипчета</a>
+    <a href="Tours.html">Турнета</a>
+    <a href="fen.html">Фен клуб</a>
+  </nav>
+</header>
+   <h1 id="tourTitle" onclick="playEffect()">Турнета на Травис Скот</h1>
+   <audio id="travSound" src="sound.mp3"></audio>
+  
+  <section>
+    <h2 style="color: #64181c;">2023–2025: Circus Maximus Tour</h2>
+    <img src="CircusMaximus.jpg" class="styled-image">
+    <ul class="ul1">
+      <li>Албум:Utopia (2023)</li>
+      <li>Период: 11 октомври 2023 – 8 ноември 2025</li>
+      <li>Континенти: Северна Америка, Европа, Азия, Африка, Южна Америка, Океания</li>
+      <li>Брой концерти: 84</li>
+      <li>Посетители:1.7 милиона</li>
+      <li>Приходи: $209.3 милиона USD</li>
+      <li>Съпътстващи артисти: Teezo Touchdown, Don Toliver, Sheck Wes, Veeze, Skilla Baby, Babyface Ray, Yung Lean, Pablo Chill-E, Lomiiel</li>
+    </ul>
+    <h3>Основни дати:</h3>
+    <ul class="ul1">
+      <li>11 октомври 2023: Шарлът, САЩ – Spectrum Center</li>
+      <li>16 юли 2024: Хамбург, Германия – Barclays Arena</li>
+      <li>20 юли 2024: Кьолн, Германия – RheinEnergieStadion</li>
+      <li>27 юли 2024: Франкфурт, Германия – Deutsche Bank Park</li>
+      <li>11 октомври 2025: Йоханесбург, Южна Африка – FNB Stadium</li>
+      <li>18 октомври 2025: Делхи, Индия – Jawaharlal Nehru Stadium</li>
+      <li>25 октомври 2025: Сеул, Южна Корея – Goyang Stadium</li>
+      <li>1 ноември 2025: Саня, Китай – Sanya Stadium</li>
+      <li>8 ноември 2025: Токио, Япония – Belluna Dome</li>
+    </ul>
+  </section>
+    
+
+  <section>
+    <h2>2018–2019: Astroworld – Wish You Were Here Tour</h2>
+    <img src="ASTROWORLD.jpg" class="styled-image1">
+    <ul >
+      <li>Албум:Astroworld (2018)</li>
+      <li>Период: 8 ноември 2018 – 16 юли 2019</li>
+      <li>Континенти: Северна Америка, Европа</li>
+      <li>Брой концерти: 57</li>
+      <li>Съпътстващи артисти: Sheck Wes, Trippie Redd, Gunna, Virgil Abloh, Octavian</li>
+    </ul>
+    <h3 style="color: #d6630d;">Основни дати:</h3>
+    <ul>
+      <li>8 ноември 2018: Балтимор, САЩ – CFG Bank Arena</li>
+      <li>2 март 2019: Ню Йорк, САЩ – Madison Square Garden</li>
+      <li>3 март 2019: Бруклин, САЩ – Barclays Center</li>
+      <li>16 юли 2019: Лондон, Великобритания – O2 Arena</li>
+    </ul>
+  </section>
+  <script>
+  function playEffect() {
+    const title = document.getElementById("tourTitle");
+    const sound = document.getElementById("travSound");
+
+    const originalText = title.innerText;
+    title.innerText = "FEIN!";
+    sound.play();
+
+    setTimeout(() => {
+      title.innerText = originalText;
+    }, 5000);
+  }
+</script>
+
+  <footer>
+  <div class="logo">
+    <img src="icon.png" alt="Икона">
+    <span>© 2025 LitLikeScott. Всички права запазени.</span>
+  </div>
+  <div >
+    <p id="footer1">Social media:</p>
+    <a id="footer2" href="https://www.tiktok.com/@igri.na.volqta.bg_editz?_t=ZN-8wd3rjVOOco&_r=1">@igri.na.volqta.bg_editz</a>
+  </div>
+  
+</footer>
+
+
+  
+</body>
+</html>
