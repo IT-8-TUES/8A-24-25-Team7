@@ -160,7 +160,12 @@
 </footer>
 
 <script>
-  containers.forEach(container => {
+  function filterAlbums() {
+    const input = document.getElementById("albumSearch");
+    const filter = input.value.toUpperCase();
+    const containers = document.querySelectorAll(".albums .container");
+
+    containers.forEach(container => {
       const caption = container.querySelector(".caption");
       if (caption) {
         const txtValue = caption.textContent || caption.innerText;
@@ -171,6 +176,7 @@
         }
       }
     });
+  }
 </script>
     
 
