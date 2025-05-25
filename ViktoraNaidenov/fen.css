@@ -1,0 +1,37 @@
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #64181c;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-style: normal;
+    color:#131313;
+    text-shadow: 1px 1px 5px rgba(83, 82, 82, 0.8);
+}
+                    
+
+
+body {
+  background-color: white;
+  background-image: url('luxa.org-opacity-changed-._download.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+body::before {
+  background: rgba(0, 0, 0, 0.5); /* was maybe 0.3–0.4 before */
+}
+ul,li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #f5eada;
+}
+p{color: #dadada;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  }
