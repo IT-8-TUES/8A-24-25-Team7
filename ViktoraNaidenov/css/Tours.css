@@ -6,7 +6,7 @@ body{background-color: #f5eada;
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
-    color: #D9B991;
+    color: #5D382F;
 }
 h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,4 +58,42 @@ ul{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 img:hover {
   transform: scale(1.1);
+}
+header, footer {
+  background-color: #5D382F;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3em;
+  width: 3em;
+  margin-right: 2em;
+}
+
+nav a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  margin: 0 10px;
+}
+
+
+footer {
+  font-size: 14px;
+  display: flex;
+  justify-content:space-between ;
+  color:#ffffff;
+}
+
+#footer1,#footer2{
+  color:#ffffff;
 }
