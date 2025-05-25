@@ -173,16 +173,16 @@ footer {
   left: 1.25em;
   display: block;
   margin-top: 95px;
-  margin-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  width: 200px;
+  margin-left: 0.625em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  padding-left: 0.625em;
+  width: 12.5em;
   height: fit-content;
   font-size: 14px;
   border-width: 2px;
   border-style: solid;
   border-color: #ccc;
-  border-radius: 20px;
+  border-radius: 1.25em;
 }
 
