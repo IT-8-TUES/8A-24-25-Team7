@@ -160,14 +160,14 @@
     text-align: center;
   }
   
-  /* Адаптивност */
+
   @media (max-width: 768px) {
     .video-card iframe {
       height: 220px;
     }
   }
   
-  /* Анимации */
+
   @keyframes floatUp {
     0% {
       opacity: 0;
@@ -190,7 +190,7 @@
     }
   }
   
-  /* Dark mode support */
+
   .dark-mode .video-card {
     background-color: #1e1e1e;
     color: var(--dark-text);
