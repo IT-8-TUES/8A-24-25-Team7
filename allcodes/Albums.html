@@ -11,14 +11,14 @@
     <img src="icon.png" alt="Икона">
     <span><strong>LitLikeScott</strong></span>
   </div>
-  <nav>
-    <a href="#">Начало</a>
-    <a href="Biografiq.html">Биография</a>
-    <a href="Albums.html">Албуми</a>
-    <a href="#">Клипчета</a>
-    <a href="Tours.html">Турнета</a>
-    <a href="fen.html">Фен клуб</a>
-  </nav>
+ <nav>
+      <a href="Homepage.html">Начало</a>
+      <a href="Biografiq.html">Биография</a>
+      <a href="Albums.html">Албуми</a>
+      <a href="videos.html">Клипчета</a>
+      <a href="Tours.html">Турнета</a>
+      <a href="fen.html">Фен клуб</a>
+    </nav>
 </header>
 
   <h1>Албуми</h1>
@@ -160,12 +160,7 @@
 </footer>
 
 <script>
-  function filterAlbums() {
-    const input = document.getElementById("albumSearch");
-    const filter = input.value.toUpperCase();
-    const containers = document.querySelectorAll(".albums .container");
-
-    containers.forEach(container => {
+  containers.forEach(container => {
       const caption = container.querySelector(".caption");
       if (caption) {
         const txtValue = caption.textContent || caption.innerText;
@@ -176,8 +171,9 @@
         }
       }
     });
-  }
 </script>
+    
+
 
 </body>
 </html>
