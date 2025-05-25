@@ -1,0 +1,61 @@
+body{background-color: #f5eada;
+    position: relative;
+    
+
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #D9B991;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #d6630d;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    color: #64181c;
+}
+ul{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ef8659;
+    }
+.ul1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#a60002;
+    
+}
+.image-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+.styled-image {
+  width: 300px; 
+  height: auto; 
+  float: right;
+  border: 5px solid #561515; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out;
+  
+ 
+ 
+}
+.styled-image1 {
+  width: 300px; 
+  height: auto; 
+  float: right;
+  border: 5px solid #ef8659; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease-in-out;
+  
+ 
+ 
+}
+img:hover {
+  transform: scale(1.1);
+}
